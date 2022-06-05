@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Dreamland Theme Park
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header-nav.css" type="text/css">
+    <script src="submenu.js" defer></script>
+    <script src="project.js" defer></script>
+</head>
+
+<body class="famRidesBody">
+    <div class="header-nav-container">
+        <header>
+            <a id="header-banner" href="index.html">
+                    Dreamland Theme Park
+            </a>
+        </header>
+        <nav>
+            <div>
+                Adventure
+                <div class="sub-nav-container">
+                    <div class="sub-nav">
+                        <a href="famRides.html" class="menu-selected">Family Rides</a>
+                        <a href="highThrillRides.html">High Thrill Rides</a>
+                        <a href="kidsRides.html">Kid&rsquo;s Rides</a>
+                    </div>
+                </div>
+            </div>
+            <a href="store.html">Store</a>
+            <div>
+                About
+                <div class="sub-nav-container">
+                    <div class="sub-nav">
+                        <a href="map.html">Map</a>
+                        <a href="webform.html">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="wrapper" class="famRidesWrapper">
+        <div class="longPillShape">
+            <a href="netHiking.html">&lArr; Net Hiking</a>
+            <a href="famRides.html">&uArr; Family Rides &uArr;</a>
+            <a href="famOnTheWheels.html">FamOnTheWheels &rArr;</a>
+        </div>
+        <img id="ridesImage" alt="netWalk" src="images/Adventure/LetsGoRide1.jpg">
+        
+        <div class="familyRides">
+            <div class="ridesFlex">
+                <div class="infoTab">
+                    <div class="tab">
+                        <button class="tablinks active" onclick="openContent(event, 'Overview')">OVERVIEW</button>
+                        <button class="tablinks" onclick="openContent(event, 'Requirements')">REQUIREMENTS</button>
+                    </div>
+
+                    <div id="Overview" class="tabcontent">
+                        <p id="overviewDetails">Fasten your seat belts !!Enjoy a versatile drive as little drivers</p>
+                    </div>
+
+                    <div id="Requirements" class="tabcontent">
+                      
+                        <ul class="requirementList">
+                            <li class="requirement">Infants are not allowed</li>
+                            <li class="requirement">All children must be accompanied by an adult rider</li>
+                            <li class="requirement">Riders must remain seated until ride comes to a complete stop</li>
+                            <li class="requirement">Riders should wear the seatbelts compulsory</li>
+                         <li class="requirement">Persons with pregnancy concerns, heart, back or neck problems, or
+                                other serious medical conditions must not use this ride</li>
+                            <li class="requirement">Foods and beverages are not allowed</li>
+                           
+
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Dreamland Theme Park, by Rintu Joseph and Bryan Cheng as project of CSIS 1280 instructed by Anu Gupta in Winter 2022
+    </footer>
+</body>
+
+</html>

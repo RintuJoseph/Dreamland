@@ -1,0 +1,1036 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  /* background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+/* background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%); */
+/* background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+/* background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%); */
+/* background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%); */
+/* background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+/* background-image: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% ); */
+/* background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% ); */
+background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.famRidesBody {
+  background-image: url(images/marne-rhine-canal.jpeg);
+  background-size: cover;
+}
+
+body.highThrillRidesBody {
+  background-image: url(images/thrill-ride.jpeg);
+  background-size: cover;
+}
+
+body.kidsRidesBody {
+  background-image: url(images/water.jpeg);
+  background-size: cover;
+}
+
+body.webformBody {
+  background-image: url(images/marble.jpeg);
+  background-size: cover;
+}
+
+#wrapper {
+  margin: auto;
+  width: 90%;
+  max-width: 1350px;
+  height: 100%;
+  /* border: 1px;
+    border-style: ridge;
+    border-top: 1px rgb(209, 163, 78);
+    border-bottom: 1px rgb(209, 163, 78);
+    border-left: 1px ridge black;
+    border-right: 1px ridge black; */
+}
+
+#wrapper.famRidesWrapper {
+  background-image: linear-gradient(to bottom, #3d1635, #e2c9cc);
+  border-radius: 1.5vw;
+  box-shadow: 0 0 5px 2px purple, 0 0 10px 2px white;
+  margin-bottom: 4em;
+}
+
+#wrapper.highThrillRidesWrapper {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.75));
+  border-radius: 1.5vw;
+  box-shadow: 0 0 5px 2px black, 0 0 10px 2px white;
+  margin-bottom: 4em;
+}
+
+#wrapper.kidsRidesWrapper {
+  background-image: linear-gradient(to bottom, yellow, rgb(222, 222, 171));
+  border-radius: 1.5vw;
+  box-shadow: 0 0 5px 2px red, 0 0 10px 2px white;
+  margin-bottom: 4em;
+}
+
+#wrapper.webformWrapper {
+  margin-bottom: 4em;;
+}
+
+#colorChange {
+  color: white;
+  text-shadow: 0px 0px 2px black, 0px 0px 4px white;
+}
+
+.flexContainer {
+  display: flex;
+  margin:auto;
+  width: 95%;
+  max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: rgb(30, 229, 255); */
+}
+
+.flexContainer>div {
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.5), 1px 1px rgba(255, 255, 255, 0.5);
+  /* background-color: #f1f1f1; */
+  background-color: rgb(138, 211, 229);
+  margin: 0;
+  /* width: 31%; */
+  /* height:50%; */
+  text-align: center;
+  /* line-height: 75px; */
+  font-size: 20px;
+  border-top: rgb(253, 7, 163) 3px groove;
+  border-right: rgb(253, 7, 163) 3px groove;
+  border-bottom: rgb(253, 7, 163) 3px groove;
+  border-left: rgb(253, 7, 163) 3px groove;
+
+
+}
+
+/* #navDiv { */
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  /* width: 100%;
+
+}
+
+nav {
+
+  padding: 20px;
+    padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+} */
+
+/* .backimg {
+
+  text-decoration: none;
+  color: navy;
+  text-align: center;
+  word-spacing: 20em;
+  padding: 50px;
+  padding-right: 100px;
+  line-height: 2px;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: 'Grenze Gotisch', cursive;
+  background-position: 30% ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("images/Adventure/cloud1.png");
+  display: inline-block;
+}
+
+a.backimg:hover {
+  
+    background-image: url("images/Adventure/cloudred.png"),url("images/Adventure/cloud2.png");
+    
+  color: crimson;
+}
+
+a:hover{
+  color: crimson;
+} */
+
+h1 {
+  font-size: 4vw;
+  padding: 20px;
+  text-align: center;
+  color: deeppink;
+}
+h2{
+  padding-top: 1em;
+  text-align: center;
+  color: deeppink;
+}
+h3 {
+  color: navy;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#tagLine{
+  font-weight: bold;
+  font-size: 2vw;
+  font-style: italic;
+  word-spacing: 5px;
+  color:rgba(0, 0, 0);
+  background-color: khaki;
+  border-radius: 1vw;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.ridesInfo {
+  flex: 0 0 32%;
+  max-width: 250px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0px;
+  width: 100%;
+}
+
+.moredetails {
+  padding: 5px;
+}
+
+.moredetails>a {
+  display:inline-block;
+  line-height: 1em;
+  background-color: navy;
+  color: aliceblue;
+  width: 75%;
+  padding: 1em 5px 1em 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navList {
+  padding: 10px;
+}
+
+.familyRides ,.highThrillRides, .kidsRides{
+  padding: 30px;
+}
+
+#ridesImage {
+  display: block;
+  width: 80%;
+  border-radius: 30%;
+  margin:auto;
+  /* max-width: 70%;
+  height: auto; */
+  
+
+}
+
+
+p {
+  font-size: medium;
+  text-align: center;
+}
+
+#navTab {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.navList li {
+  display: inline-block;
+  padding: 70px;
+
+}
+
+li>a {
+  background-color: navy;
+  color: white;
+  width: 31%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+
+}
+
+.tab {
+  /* overflow: hidden; */
+  border: 1px solid #ccc;
+  background-color: navy;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab button {
+  flex: 1 1;
+  order: 1;
+  padding-top: 8px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  /* padding: 0.5em; */
+  font-size: 1em;
+}
+
+.tab button:hover {
+  text-shadow: 0px 0px 5px yellow;
+}
+
+
+.tab button.active {
+  background-color: gold;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: lightyellow;
+}
+
+#Overview {
+  min-height: 300px;
+  display: block;
+}
+
+.tablinks {
+  /* width: 50%; */
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#overviewDetails {
+  text-align: left;
+  /* background-color: lightyellow; */
+ 
+}
+ul.requirementList{
+  list-style-type: none;
+  padding-left: 0;
+}
+#Requirements{
+  font-size: 16px;
+  padding: 20px; 
+  text-align: left;
+}
+.requirement {
+  background-image: url('images/liststyle2.png');
+  background-repeat: no-repeat;
+  padding: 4px 0px 1em 28px;
+  min-height: 25px;
+}
+
+.ridesFlex {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+#tabDetails {
+  text-align: justify;
+}
+
+.infoTab {
+  /* background-color: #f1f1f1; */
+  width: 100%;
+  /* height:50%; */
+  margin: 20px;
+  text-align: center;
+  /* line-height: 75px; */
+  font-size: 20px;
+}
+form {
+  /* background-color: lightyellow; */
+  width: 80%;
+  margin: auto;
+  border: solid black;
+  border-radius: 20px;
+  background-color:lightyellow;
+}
+.formsection{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 34em;
+}
+fieldset {
+  margin: 1em;  
+}
+fieldset > div {
+  margin-bottom: 0.5em;
+}
+label {
+  display: inline-block;
+  /* width: 40%; */
+  text-align: left;
+  /* margin-left: 10%; */
+  /* font-size: large; */
+}
+.singleLine {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#webformPersonalInfo {
+  order: 1;
+  flex: 1 0;
+  width: 30%;
+  /* height: 15em; */
+}
+#webformVisitInfo {
+  order: 3;
+  flex: 1 1;
+  width: 60%;
+}
+#webformCommentInfo {
+  order: 2;
+  flex: 1 0;
+  width: 30%;
+  /* height: 15em; */
+}
+.checkboxClass {
+  width: 150px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* input,
+select { */
+  /* display: inline-block; */
+  /* width: 40%; */
+/* } */
+/* .checkboxClass {
+ 
+  float: right;
+  margin-right: 20px;
+  width: 55%;
+  padding: 5px;
+}  */
+/* input[type="radio"] {
+  float: left;
+  width: 10px;
+  margin-right: 10px;
+} */
+/* #selectlabel {
+  vertical-align: top;
+} */
+/* .ranges { */
+  /* float: right; */
+  /* margin-right: 20px; */
+  /* width: 90%; */
+  /* padding-bottom: 20px; */
+/* } */
+/* input[type="range"] {
+  width: 65%;
+} */
+/* #commentBox {
+  display: inline-block;
+  padding-bottom: 10px;
+
+  width: 100%;
+  text-align: left;
+} */
+
+textarea {
+  /* min-width: 200px;
+  max-width: 100%;
+  min-height: 185px;
+  max-height: 100%; */
+  height:fit-content;
+  width: 100%;
+}
+#formButtons {
+  /* padding: 20px;
+  margin-left:30%; */
+  text-align: center;
+  padding-bottom: 1em;
+}
+#formButtonSubmit {
+  width: 20%;
+  min-width: 120px;
+  text-align: center;
+  background-color: grey;
+  color: palegoldenrod;
+  font-weight: bolder;
+  
+}
+#cancelButton {
+  width: 20%;
+  min-width: 55px;
+  text-align: center;
+  background-color: grey;
+  color: palegoldenrod;
+  font-weight: bolder;
+ 
+}
+/* red:#e04f60;
+$yellow:#ffc928; */
+/* html,
+body,
+.ground {
+  height: 100%;
+}
+
+body {
+  background-color: #cce6fd;
+  overflow: hidden;
+  animation: dayTime 40s linear infinite;
+}
+
+
+/*CLOUDS*/
+
+.sky {
+  position: relative;
+}
+
+.cloud {
+  margin: 5% 0 0 100%;
+  position: relative;
+}
+
+.cloud:before,
+.cloud:after {
+  position: absolute;
+  content: '';
+}
+
+.cloud,
+.cloud:before,
+.cloud:after {
+  background: #fff;
+  border-radius: 50%;
+  border: 25px solid #fff;
+  width: 0.5%;
+  overflow: visible;
+}
+
+.cloud:before {
+  top: -35px;
+  right: -60px;
+  border-width: 30px;
+}
+
+.cloud:after {
+  bottom: -25px;
+  right: -95px;
+  border-width: 28px;
+}
+
+.sky .cloud:nth-child(1) {
+  -webkit-animation: wind 80s infinite;
+  animation: wind 80s infinite;
+}
+
+.sky .cloud:nth-child(2) {
+  -webkit-animation: wind 150s infinite;
+  animation: wind 150s infinite;
+}
+
+.stage:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 3px solid #205c6b;
+  border-bottom: 3px dashed #205c6b;
+}
+
+
+/*TRAIN*/
+
+.train {
+  position: absolute;
+  bottom: 10px;
+  width: 310px;
+  z-index: 1;
+}
+
+.wagon,
+.cabin,
+.chimney {
+  border-radius: 4px 4px 0 0;
+  border-top: 4px solid yellow;
+
+}
+
+.wagon,
+.motor {
+  border-bottom: 2px solid yellow;
+}
+
+.wagon,
+.locomotive {
+  display: inline-block;
+  width: 70px;
+  height: 55px;
+  background-color: red;
+  position: relative;
+}
+
+
+/*WHEELS*/
+
+.wagon:before,
+.wagon:after,
+.motor:before,
+.motor:after,
+.cabin:after {
+  content: ' ';
+  color: #fff;
+  padding: 6px;
+  position: absolute;
+  border-radius: 46%;
+  border: 6px solid #333;
+  bottom: -10px;
+  background-color: #666;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+
+.wagon:before {
+  left: 6px;
+}
+
+.wagon:after {
+  right: 6px;
+}
+
+.motor:before {
+  left: 32px;
+}
+
+.motor:after {
+  right: 4px;
+}
+
+.cabin:after {
+  bottom: -50px;
+  padding: 8px;
+  left: 3px;
+}
+
+
+/*LOCOMOTIVE*/
+
+.locomotive {
+  background-color: transparent;
+}
+
+.locomotive .cabin {
+  width: 58px;
+  height: 35px;
+  background-color: red;
+  position: relative;
+  z-index: 1;
+  border-radius: 8px 8px 0 0;
+}
+
+
+/*locomotive window*/
+
+.locomotive .cabin:before {
+  content: ' ';
+  width: 25px;
+  height: 18px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  border-radius: 3px;
+  border: 3px solid pink;
+  background-color: #f1f1f1;
+}
+
+.locomotive .motor {
+  display: inline-block;
+  width: 85px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+  border-radius: 0 8px 0px 0px;
+}
+
+.locomotive .chimney {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  right: -6px;
+  bottom: 10px;
+  -webkit-animation: puf 4s 2;
+  animation: puf 4s 2;
+}
+
+.locomotive .light {
+  content: " ";
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  border-radius: 50%;
+  border: 3px solid pink;
+}
+
+.train {
+  -webkit-animation: voyage 20s linear infinite;
+  animation: voyage 20s linear infinite;
+}
+
+.longPillShape {
+  display: flex;
+  margin-bottom: 50px;
+  white-space: nowrap;
+}
+
+.longPillShape > a:nth-of-type(2) {
+  background-image: linear-gradient(to bottom, black, gray 50%, black);
+  flex: 1;
+  color: white;
+  text-shadow: 0px 0px 5px yellow;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.longPillShape > a:first-of-type {
+  background-image: linear-gradient(to bottom, darkred, red 50%, darkred);
+  flex: 1;
+  border-top-left-radius: 1.5vw;
+  border-bottom-left-radius: 1.5vw;
+  padding: 0.5vw 1em 0.5vw 2vw;
+  text-align: left;
+  color:white;
+  text-shadow: 0px 0px 3px yellow;
+}
+
+.longPillShape > a:last-of-type {
+  background-image: linear-gradient(to bottom, darkgreen, rgb(90, 179, 0) 50%, darkgreen);
+  flex: 1;
+  border-top-right-radius: 1.5vw;
+  border-bottom-right-radius: 1.5vw;
+  padding: 0.5vw 2vw 0.5vw 1em;
+  text-align: right;
+  color: white;
+  text-shadow: 0px 0px 3px yellow;
+}
+
+/*ANIMATIONS*/
+
+@-webkit-keyframes dayTime {
+  0% {
+    background-color: #cce6fd;
+  }
+
+  50% {
+    background-color: #252645;
+  }
+
+  100% {
+    background-color: #cce6fd;
+  }
+}
+
+@keyframes dayTime {
+  0% {
+    background-color: #cce6fd;
+  }
+
+  50% {
+    background-color: #252645;
+  }
+
+  100% {
+    background-color: #cce6fd;
+  }
+}
+
+@-webkit-keyframes puf {
+  0% {
+    bottom: 0px
+  }
+
+  25% {
+    bottom: -1px;
+  }
+
+  100% {
+    bottom: 5px;
+  }
+}
+
+@keyframes puf {
+  0% {
+    bottom: 0px
+  }
+
+  25% {
+    bottom: -1px;
+  }
+
+  100% {
+    bottom: 5px;
+  }
+}
+
+@-webkit-keyframes wind {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 110%;
+  }
+}
+
+@keyframes wind {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes voyage {
+  0% {
+    left: -310px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes voyage {
+  0% {
+    left: -310px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media(min-width: 1500px) {
+  /* 1vw = 15px */
+  /* .ridesInfo {
+    max-width: unset;
+    flex: 0 0 100%;
+    margin: 10px 0px 0px 0px;
+  } */
+  h1 {
+    font-size: 60px; /* 4vw; */
+  }
+  #wrapper.famRidesWrapper,
+  #wrapper.highThrillRidesWrapper,
+  #wrapper.kidsRidesWrapper {
+    border-radius: 22.5px; /* 1.5vw; */
+  }
+  #tagLine {
+    font-size: 30px; /* 2vw; */
+    border-radius: 15px; /* 1vw; */
+  }
+  .longPillShape > a:nth-of-type(2) {
+    font-size: 30px; /* 2vw; */
+    padding-top: 7.5px; /* 0.5vw; */
+    padding-bottom: 7.5px; /* 0.5vw; */
+  }
+  .longPillShape > a:first-of-type {
+    border-top-left-radius: 22.5px; /* 1.5vw; */
+    border-bottom-left-radius: 22.5px; /* 1.5vw; */
+    padding: 7.5px 1em 7.5px 30px; /* 0.5vw 1em 0.5vw 2vw; */
+  }
+  .longPillShape > a:last-of-type {
+    border-top-right-radius: 22.5px; /* 1.5vw; */
+    border-bottom-right-radius: 22.5px; /* 1.5vw; */
+    padding: 7.5px 30px 7.5px 1em; /* 0.5vw 2vw 0.5vw 1em; */
+  }
+}
+
+@media(max-width: 1200px) {
+  fieldset {
+    margin: 2.5%;
+  }
+  .formsection {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height:unset;
+  }
+  #webformPersonalInfo {
+    width: 95%;
+  }
+  .singleLine {
+    flex-wrap: wrap;
+  }
+  #webformVisitInfo {
+    order: 2;
+    width: 95%;
+  }
+  #webformCommentInfo {
+    order: 3;
+    width: 95%;
+  }
+}
+
+@media(max-width: 800px) {
+  /* 1vw = 8px */
+  .ridesInfo {
+    max-width: unset;
+    flex: 0 0 100%;
+    margin: 10px 0px 0px 0px;
+  }
+  h1 {
+    font-size: 32px; /* 4vw; */
+  }
+  #wrapper.famRidesWrapper,
+  #wrapper.highThrillRidesWrapper,
+  #wrapper.kidsRidesWrapper {
+    border-radius: 12px; /* 1.5vw; */
+  }
+  #tagLine {
+    font-size: 16px; /* 2vw; */
+    border-radius: 8px; /* 1vw; */
+  }
+  .familyRides ,.highThrillRides, .kidsRides{
+    padding: 3.75vw; /* 30px; */
+  }
+  .infoTab {
+    margin: 2.5vw; /* 20px; */
+  }
+  .longPillShape {
+    margin-bottom: 6.25vw; /* 50px; */
+  }
+  .longPillShape > a:nth-of-type(2) {
+    font-size: 16px; /* 2vw; */
+    padding-top: 4px; /* 0.5vw; */
+    padding-bottom: 4px; /* 0.5vw; */
+  }
+  .longPillShape > a:first-of-type {
+    border-top-left-radius: 12px; /* 1.5vw; */
+    border-bottom-left-radius: 12px; /* 1.5vw; */
+    padding: 4px 1em 4px 16px; /* 0.5vw 1em 0.5vw 2vw; */
+  }
+  .longPillShape > a:last-of-type {
+    border-top-right-radius: 12px; /* 1.5vw; */
+    border-bottom-right-radius: 12px; /* 1.5vw; */
+    padding: 4px 16px 4px 1em; /* 0.5vw 2vw 0.5vw 1em; */
+  }
+}
+
+@media(max-width: 600px) {
+  .longPillShape {
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .longPillShape > a:nth-of-type(2) {
+    background-image: linear-gradient(to bottom, black 25%, gray);
+    flex: 0 0 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .longPillShape > a:first-of-type {
+    background-image: linear-gradient(to bottom, red, darkred 75%);
+    order: 10;
+    flex: 1 1;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+  .longPillShape > a:last-of-type {
+    background-image: linear-gradient(to bottom, rgb(90, 179, 0), darkgreen 75%);
+    order: 11;
+    flex: 1 1;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+  }
+}
+
+@media(max-width: 450px) {
+  h1 {
+    padding: 5px;
+  }
+  .hasLongWord {
+    word-break: break-all;
+  }
+  .tab button {
+    flex-basis: 100%;
+  }  
+  .tab button.active {
+    order: 2;
+    text-shadow: 0px 0px 5px yellow;
+  }
+  .tab button:first-of-type {
+    background-color: coral;
+    color: gray;
+  }
+  .tab button:first-of-type.active {
+    color: white;
+  }
+  .tab button:last-of-type {
+    background-color: inherit;
+    color: gray;
+  }
+  .tab button:last-of-type.active {
+    color: white;
+  }
+  .tab button:hover {
+    color:white;
+  }  
+  #Overview {
+    background-color: peachpuff;
+  }
+  #Requirements {
+    background-color: paleturquoise;
+  }
+  .familyRides ,.highThrillRides, .kidsRides{
+    padding: 0;
+  }
+  .flexContainer {
+    padding-bottom: 12px;
+  }
+  .infoTab {
+    margin: 16px 0 0 0;
+  }
+  .tabcontent {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}

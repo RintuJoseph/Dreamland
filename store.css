@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body {
+    /* background-color: rgb(48, 96, 178); */
+    background-image: url(images/clouds-vertical.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto 3em auto;
+    border-radius: 25px;
+}
+
+.submenu {
+    display: flex;
+    align-items:flex-end;
+    color: gray;
+    min-height: 25px;
+    
+    flex-basis: 100%;
+    
+    /* to be updated in @media(...) condition */
+    height: 5vw;
+    font-size: 4vw;
+}
+.submenu > a:first-child {
+    border-top-left-radius: 25px;
+}
+.submenu > a:last-child {
+    border-top-right-radius: 25px;
+}
+.submenu > a {
+    text-decoration: none;
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+    border-width: 3px;
+    align-self:stretch;
+}
+.submenu > a:hover {
+    font-weight: bold;
+}
+
+.souvenir-background {
+    background-color: rgb(255, 255, 224);
+}
+.hotel-background {
+    background-color:rgb(216, 237, 255);
+}
+.ticket-background {
+    background-color: rgb(255, 219, 231);
+}
+.submenu-selected {
+    color: black;
+}
+
+section {
+    margin-top: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 25px;
+    flex: 1;
+    /* to be updated in @media(...) condition */
+    font-size: 2vw;
+}
+#shopping-cart {
+    border: 1px solid black;
+    background-color: white;
+    align-self: stretch;
+    /* min-height: 50vh; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: 0;
+    padding: 5px;
+
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    /* to be updated in @media(...) condition */
+    font-size: 1.2vw;
+    flex: 0 0 16vw;
+}
+#checkout {
+    width: 100%;
+}
+#shopping-content {
+    text-align: left;
+}
+#shopping-content > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#shopping-content > ul > li > .float-right > button {
+    font-size: 0.5em;
+}
+.tab-content {
+    text-align: center;
+}
+.tab-content p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul#souvenir-list {
+    padding-left: 0;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul#souvenir-list > li {
+    flex: 0 0 208px;
+    margin-bottom: 8px;
+}
+.souvenior-image {
+    background-color: lavender;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: 192px;
+    margin: 8px;
+}
+.souvenior-name {
+    min-height: 1em;
+    margin: 8px;
+}
+.souvenior-control {
+    margin: 8px;
+    min-height: 18px;
+}
+
+#hotel-content > table > caption {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url(images/leather.jpeg);
+
+    font-family: 'Merienda One', cursive;
+    color: rgb(255, 193, 77);
+    font-weight: bold;
+    /* to be updated in @media(...) condition */
+    font-size: 3vw;
+}
+#hotel-content > table > caption > a:hover {
+    color: yellow;
+}
+#hotel-content > table > caption > a:first-child {
+    padding-left: 1em;
+    float: left;
+}
+#hotel-content > table > caption > a:last-child {
+    float: right;
+    padding-right: 1em;
+}
+#hotel-content > table {
+    width: 100%;
+    background-image: url(images/leather.jpeg);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* to be updated in @media(...) condition */
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+#hotel-content > table > thead {
+    font-family: 'Merienda One', cursive;
+    color: rgb(255, 193, 77);
+    font-weight: bold;
+}
+#hotel-content > table > tbody {
+    background-image: url(images/old-paper.jpeg)
+}
+#hotel-content > table > tbody > tr {
+    /* to be updated in @media(...) condition */
+    height: 5vw;
+}
+#hotel-content > table th {
+    width: 12%;
+}
+#hotel-content > table td {
+    vertical-align: top;
+    text-align: left;
+}
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+fieldset > div {
+    text-align: left;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+fieldset > div > div {
+    margin-bottom: 10px;
+    /* min-width: 190px; */
+}
+fieldset > button {
+    flex: 75px 3;
+}
+input {
+    font-size: inherit;
+}
+button {
+    font-size: inherit;
+}
+.input-problem {
+    font-size: 1em;
+    color: red;
+}
+
+.both-justify {
+    text-align: justify;
+}
+.float-right {
+    float: right;
+}
+
+@media(min-width: 1500px) {
+    /* 1vw = 15px */
+    .submenu {
+        height: 75px; /* 5vw; */
+        font-size: 60px; /* 4vw; */
+    }
+    section {
+        font-size: 30px; /* 2vw; */
+    }
+    #shopping-cart {
+        font-size: 18px; /* 1.2vw; */
+        flex: 0 0 255px; /* 0 0 16vw; */
+    }
+    #hotel-content > table > caption {
+        font-size: 45px; /* 3vw; */
+    }
+    #hotel-content > table {
+        padding: 15px; /* 1vw; */
+        font-size: 22.5px; /* 1.5vw; */
+    }
+    #hotel-content > table > tbody > tr {
+        height: 65px /* 5vw; */
+    }
+}
+
+@media(max-width: 800px) {
+    /* 1vw = 8px */
+    .wrapper {
+        justify-content: center;
+    }
+    .submenu {
+        height: 40px; /* 5vw; */
+        font-size: 32px; /* 4vw; */
+    }
+    section {
+        font-size: 16px; /* 2vw; */
+        flex: 1 1 220px;
+    }
+    #shopping-cart {
+        font-size: 9.6px; /* 1.2vw; */
+        flex: 0 0 128px; /* 0 0 16vw; */
+    }
+    ul#souvenir-list > li {
+        flex: 0 0 26vw;
+        margin-bottom: 1vw;
+    }
+    .souvenior-image {
+        height: 24vw;
+        margin: 1vw;
+    }
+    .souvenior-name {
+        min-height: 1em;
+        margin: 1vw;
+    }
+    .souvenior-control {
+        margin: 1vw;
+        min-height: 18px;
+    }
+    #hotel-content > table > caption {
+        font-size: 24px; /* 3vw; */
+    }
+    #hotel-content > table {
+        padding: 8px; /* 1vw; */
+        font-size: 12px; /* 1.5vw; */
+    }
+    #hotel-content > table > tbody > tr {
+        height: 40px /* 5vw; */
+    }
+
+    .material-icons-outlined.md-18 { font-size: 18px; }
+}
+
+@media(max-width: 450px) {
+    /* 1vw = 4.5px */
+    .wrapper {
+        border-radius: 0;
+    }
+    .submenu {
+        height: 25px; /* 5vw; */
+        font-size: 1em; /* 4vw; */
+    }
+    .submenu > a:first-child {
+        border-top-left-radius: 0;
+    }
+    .submenu > a:last-child {
+        border-top-right-radius: 0;
+    }
+    section {
+        flex: 100%;
+    }
+    #shopping-cart {
+        order: 2;
+    }
+}
+
+@media(max-width: 400px) {
+    /* 1vw = 4.5px */
+    #hotel-content > table {
+        display: none;
+    }
+}

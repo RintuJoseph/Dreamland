@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom, rgb(48, 96, 178), rgba(255, 255, 255, 0.745) 100px, transparent), url(images/leather.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-image: url(images/old-paper.jpeg);
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5em;
+    width: 80%;
+    max-width: 1200px;
+    min-height: 30vw;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 3vw;
+}
+
+p {
+    margin-top: 1em;
+}
+
+#items {
+    font-size: 1.75vw;
+    font-family: initial;
+    text-align: left;
+    padding: 2em;
+}

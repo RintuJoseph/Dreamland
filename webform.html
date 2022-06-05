@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Dreamland Theme Park
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header-nav.css" type="text/css">
+    <script src="submenu.js" defer></script>
+</head>
+
+<body class="webformBody">
+    <div class="header-nav-container">
+        <header>
+            <a id="header-banner" href="index.html">
+                    Dreamland Theme Park
+            </a>
+        </header>
+        <nav>
+            <div>
+                Adventure
+                <div class="sub-nav-container">
+                    <div class="sub-nav">
+                        <a href="famRides.html">Family Rides</a>
+                        <a href="highThrillRides.html">High Thrill Rides</a>
+                        <a href="kidsRides.html">Kid&rsquo;s Rides</a>
+                    </div>
+                </div>
+            </div>
+            <a href="store.html">Store</a>
+            <div>
+                About
+                <div class="sub-nav-container">
+                    <div class="sub-nav">
+                        <a href="map.html">Map</a>
+                        <a class="menu-selected">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="wrapper" class="webformWrapper">
+        <form method="get">
+            <h2>Share about your exeprience at the DreamLand Adventure Park</h2>
+            <div class="formsection">
+                <fieldset id="webformPersonalInfo">
+                    <legend>Personal Information</legend>
+                    <div class="singleLine">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" id="title" list="titles">
+                    </div>
+                    <datalist id="titles">
+                        <option value="Mr">
+                        <option value="Mrs">
+                        <option value="Ms">
+                    </datalist>
+                    <div class="singleLine">
+                        <label for="name">Name*</label>
+                        <input type="text" name="name" id="name" placeholder="first and last name" required>
+                    </div>
+                    <div class="singleLine">
+                        <label for="address">Street Address</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div class="singleLine">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="singleLine">
+                        <label for="state">State</label>
+                        <input type="text" name="state" id="state">
+                    </div>
+                    <div class="singleLine">
+                        <label for="zipcode">Postal code</label>
+                        <input type="text" name="zipcode" id="zipcode" placeholder="nnnnn- (nnnn)">
+                    </div>
+                    <div class="singleLine">
+                        <label for="telephone">Phone number</label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="(nnn)-nnn-nnnn">
+                    </div>
+                    <div class="singleLine">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </fieldset>
+                <fieldset id="webformVisitInfo">
+                    <legend>About the visit</legend>
+                    <div class="singleLine">
+                        <label for="dov">Date of visit</label>
+                        <input type="date" id="dov" name="dov">
+                    </div>
+                    <div class="singleLine">
+                        <label id="monthLabel" for="times">How many times in an year do you visit an amusement park ?</label>
+                        <input type="number" name="times" id="times" min="0" max="99">
+                    </div>
+                    <div>
+                        <label id="selectlabel" for="hear" class="singleLine">Where did you heared about us?(Select all that apply)</label>
+                        <select name="hear" id="hear" size="5" multiple>
+                            <option value="Internet">Internet</option>
+                            <option value="Magazine">Magazine</option>
+                            <option value="Newspaper">Newspaper</option>
+                            <option value="Word of mouth">Word of mouth</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="singleLine">
+                        <label>Is this your first visit to DreamLand Theme Park</label>
+                        <div class="checkboxClass">
+                            <label class="visitcheckbox" for="yes">
+                                <input type="radio" name="actionVisit" id="yes" value="yes">Yes</label>
+                            <label class="visitcheckbox" for="no">
+                                <input type="radio" name="actionVisit" id="no" value="no">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Were the park and shop hours adequate?</label>
+                        <div class="checkboxClass">
+                            <label for="correctServiceYes">
+                                <input type="radio" name="actionOrder" id="correctServiceYes"
+                                    value="correctServiceYes">Yes</label>
+                            <label for="correctServiceNo">
+                                <input type="radio" name="actionOrder" id="correctServiceNo"
+                                    value="correctServiceNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Were the atmosphere and cleanliness of the park acceptable?</label>
+                        <div class="checkboxClass">
+                            <label for="parkYes">
+                                <input type="radio" name="actionPark" id="parkYes" value="parkYes">Yes</label>
+                            <label for="parkNo">
+                                <input type="radio" name="actionPark" id="parkNo" value="parkNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Were the employees helpful and entertaining?</label>
+                        <div class="checkboxClass">
+                            <label for="empYes">
+                                <input type="radio" name="actionEmp" id="empYes" value="empYes">Yes</label>
+                            <label for="empNo">
+                                <input type="radio" name="actionEmp" id="empNo" value="empNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Did you and your family able to enjoy family rides?</label>
+                        <div class="checkboxClass">
+                            <label for="familyYes">
+                                <input type="radio" name="actionFamrides" id="familyYes" value="familyYes">Yes</label>
+                            <label for="familyNo">
+                                <input type="radio" name="actionFamrides" id="familyNo" value="familyNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Did your kids able to enjoy kids rides?</label>
+                        <div class="checkboxClass">
+                            <label for="kidYes">
+                                <input type="radio" name="actionKidsrides" id="kidYes" value="kidYes">Yes</label>
+                            <label for="kidNo">
+                                <input type="radio" name="actionKidsrides" id="kidNo" value="kidNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Did you and your family able to enjoy the high thrill rides?</label>
+                        <div class="checkboxClass">
+                            <label for="thrillYes">
+                                <input type="radio" name="actionThrillride" id="thrillYes" value="thrillYes">Yes</label>
+                            <label for="thrillNo">
+                                <input type="radio" name="actionThrillride" id="thrillNo" value="thrillNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label>Did you enjoy the food and accomodation?</label>
+                        <div class="checkboxClass">
+                            <label for="foodYes">
+                                <input type="radio" name="actionFood" id="foodYes" value="foodYes">Yes</label>
+                            <label for="foodNo">
+                                <input type="radio" name="actionFood" id="foodNo" value="foodNo">No</label>
+                        </div>
+                    </div>
+                    <div class="singleLine">
+                        <label for="rating">Rate the overall service(0=poor;10=great)</label>
+                        <div class="ranges">
+                            0<input type="range" name="rating" id="rating" min="0" max="10">10
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset id="webformCommentInfo">
+                    <legend>More comments</legend>
+                    <div id="commentArea">
+                        <label id="commentBox">Tell us more about your experience!</label>
+                        <br>
+                        <textarea name="comments"></textarea>
+                    </div>
+                </fieldset>
+            </div>
+            <div id="formButtons">
+                <input id="formButtonSubmit" name="formButton" type="submit" value="Submit My Review" />
+                &nbsp;
+                &nbsp;
+                <input id="cancelButton" name="formButton" type="reset" value="Cancel" />
+            </div>
+        </form>
+    </div>
+    <footer>
+        Dreamland Theme Park, by Rintu Joseph and Bryan Cheng as project of CSIS 1280 instructed by Anu Gupta in Winter 2022
+    </footer>
+</body>
+
+</html>

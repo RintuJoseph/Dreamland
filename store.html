@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header-nav.css" type="text/css">
+    <link rel="stylesheet" href="store.css" type="text/css">
+    <script src="submenu.js" defer></script>
+    <script src="souvenir.js"></script> 
+    <script src="store.js" defer></script> 
+    <title>Dreamland Theme Park - Store</title>
+</head>
+<body>
+    <div class="header-nav-container">
+        <header>
+            <a id="header-banner" href="index.html">
+                    Dreamland Theme Park
+            </a>
+        </header>
+        <nav>
+            <div>
+                Adventure
+                <div class="sub-nav-container">
+                    <div class="sub-nav">
+                        <a href="famRides.html">Family Rides</a>
+                        <a href="highThrillRides.html">High Thrill Rides</a>
+                        <a href="kidsRides.html">Kid&rsquo;s Rides</a>
+                    </div>
+                </div>
+            </div>
+            <a class="menu-selected">Store</a>
+            <div>
+                About
+                <div class="sub-nav-container">
+                    <div class="sub-nav">
+                        <a href="map.html">Map</a>
+                        <a href="webform.html">Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main class="wrapper">
+        <div class="submenu">
+            <a id="souvenir-tab" class="souvenir-background" onclick="show(this)">Souvenir</a>
+            <a id="hotel-tab" class="hotel-background" onclick="show(this)">Hotel</a>
+            <a id="ticket-tab" class="ticket-background" onclick="show(this)">Ticket</a>
+        </div>
+        <section id="shopping-cart">
+            <form action="checkout.html">
+                <button id="checkout" name="checkout" disabled>
+                    <span class="material-icons-outlined">
+                        shopping_cart_checkout
+                    </span>
+                    Checkout
+                </button><br>
+                * * PREVIEW * *<br>
+                <br>
+                YOUR SHOPPING CART INVOICE<br>
+                ********************<br>
+                Dreamland Theme Park<br>
+                * * * * *<br>
+                Welcome to our <br>
+                &gt;&gt; ONLINE STORE &lt;&lt;<br>
+                Please enjoy our premium services and quality products below.<br>
+                ********************<br>
+                <div id="shopping-content">
+                    <br>
+                    Total<div class="float-right">0</div>
+                </div>
+                ********************<br>
+                Refund of products is available in our store within Dreamland Theme Park.
+                Please present this invoice during refund.
+                You may call (987) 654-3210 for enquiry.<br>
+            </form>
+        </section>
+        <section id="souvenir-content" class="tab-content">
+            <h2>Keep yourself a token of happiness<br>and share it with your friend</h2>
+            <p class="both-justify">
+                Keep this happy moment in Dreamland Theme Park rolling on and on by buying souvenirs to you and your friends!
+                Make it part of your happy life with our decent souvenirs.
+            </p>
+            <ul id="souvenir-list">
+                <li id="souvenir-001"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-002"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-003"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-004"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-005"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-006"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-007"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-008"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-009"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-010"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-011"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-012"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-013"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-014"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-015"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+                <li id="souvenir-016"><div class="souvenior-image"></div><div class="souvenior-name"></div><div class="souvenior-control"></div></li>
+            </ul>
+        </section>
+        <section id="hotel-content" class="tab-content">
+            <h2>Stay With Us, Chill With Us</h2>
+            <p class="both-justify">
+                You can maximize your enjoyment in Dreamland Theme Park by spending a weekend or two with us staying in our hotel.
+                Our hotel is located inside the park and is the only hotel closest to our park. You can play all day long and then
+                have a good rest in just a few minutes ride with our in-park transpotation. Or instead, you can have a romantic 
+                walk in the park under the starry night.
+            </p>
+            <p class="both-justify">
+                Besides, during the stay in our hotel, your hotel keycard is also your daily pass of the park! Each room comes
+                with 2 keycards only, but purchase of extra tickets in the same invoice will be discounted by 50%! Please take
+                good care of those keycards because any damaged or lost keycard will be charged when hotel check out. For details,
+                please check with our staff at hotel concierge.
+            </p>
+            <h2>How To Use</h2>
+            <p class="both-justify">
+                Please select the range of dates below for reservation of accomodation in our cozy hotel. Each subscription submitted
+                by clicking the "Add to cart" button represents 1 room reserved after payment. If more than one room is needed, please
+                select the date range and then click the "Add to cart" button again. You may verify your purchase in the preview invoice.
+                Each entry in the invoice represets one room for the described period.
+            </p>
+            <fieldset>
+                <div>
+                    <div>
+                        <label for="start-date">From<input type="date" id="start-date" name="start-date" class="float-right" onchange="checkHotelDates()"></label>
+                    </div>
+                    <div>
+                        <label for="end-date">To<input type="date" id="end-date" name="end-date" class="float-right" onchange="checkHotelDates()"></label>
+                    </div>
+                </div>
+                <button onclick="addHotelReservation()">
+                    <span class="material-icons-outlined">
+                        add_shopping_cart
+                    </span>Add to cart
+                </button>
+            </fieldset>
+            <p id="hotel-input-problem" class="input-problem"></p>
+            <p id="hotel-charge">
+                With daily charge of $<span id="hotel-unit-price">100</span> per room, 
+                a total of <span id="hotel-day-quantity">0 day</span>
+                charges $<span id="hotel-total">0</span>.
+            </p>
+            <table>
+                <caption>
+                    <a onclick="updateCalendar(-1)">&slarr;</a>
+                    <span></span>
+                    <a onclick="updateCalendar(1)">&srarr;</a>
+                </caption>
+                <thead>
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="ticket-content" class="tab-content">
+            <h2>Buy tickets now! No need to queue up at the entrance</h2>
+            <p class="both-justify">
+                You can buy tickets here in the online store instead of queueing up at the entrance waiting for tickets.
+                Tickets purchased here can let you enjoy a whole day in our park the same as tickets bought at entrance.
+                However, you will never need to be crowded at the entrance anymore. Simply use your mobile and present
+                the tickets bought here!
+            </p>
+            <p class="both-justify">
+                However, there is one major difference for tickets bought here. Tickets bought at entrance valid only at
+                the day of purchase, but here, tickets has no expiry date! You can come visit us any day on your own
+                preference.
+            </p>
+            <h2>Dreamland Theme Park Year Pass</h2>
+            <p class="both-justify">
+                We know that, from time to time, you also like to get relax in Dreamland Theme Park. Other than the usual ticket for
+                daily use, we also offer year pass for you to come anytime you want with a bargaining price.
+            </p>
+            <fieldset>
+                <div>
+                    <div>
+                        <label for="adult-ticket">Adult Ticket <input type="number" id="adult-ticket" name="adult-ticket" class="float-right" min="0" max="99" onchange="checkTicket()"></label>
+                    </div>
+                    <div>
+                        <label for="child-ticket">Child Ticket <input type="number" id="child-ticket" name="child-ticket" class="float-right" min="0" max="99" onchange="checkTicket()"></label>                        
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="adult-year-pass">Adult Year Pass <input type="number" id="adult-year-pass" name="adult-year-pass" class="float-right" min="0" max="99" onchange="checkTicket()"></label>
+                    </div>
+                    <div>
+                        <label for="child-year-pass">Child Year Pass <input type="number" id="child-year-pass" name="child-year-pass" class="float-right" min="0" max="99" onchange="checkTicket()"></label>                        
+                    </div>
+                </div>
+                <button onclick="addTicket()">
+                    <span class="material-icons-outlined">
+                        add_shopping_cart
+                    </span>Add to cart
+                </button>
+            </fieldset>
+            <p id="ticket-input-problem" class="input-problem"></p>
+            <p id="ticket-charge">
+                $<span id="adult-ticket-total">0</span> for <span id="adult-ticket-quantity">0</span> Adult Ticket @$<span id="adult-ticket-unit-price">50</span><br>
+                $<span id="child-ticket-total">0</span> for <span id="child-ticket-quantity">0</span> Child Ticket @$<span id="child-ticket-unit-price">25</span><br>
+                $<span id="adult-year-pass-total">0</span> for <span id="adult-year-pass-quantity">0</span> Adult Year Pass @$<span id="adult-year-pass-unit-price">250</span><br>
+                $<span id="child-year-pass-total">0</span> for <span id="child-year-pass-quantity">0</span> Child Year Pass @$<span id="child-year-pass-unit-price">125</span><br>
+                Adds up to a total of $<span id="ticket-grand-total">0</span>.
+            </p>
+        </section>
+    </main>
+    <footer>
+        Dreamland Theme Park, by Rintu Joseph and Bryan Cheng as project of CSIS 1280 instructed by Anu Gupta in Winter 2022
+    </footer>
+</body>
+</html>
